@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- My own framework for background -->
+    <link rel="stylesheet" href="https://ilyashussain07.github.io/incomingp/bg-li-gd.css">
+    <!-- Font awesome icons reference -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fashion House CSS  -->
+    <link rel="stylesheet" href="https://sonicai07.github.io/Sonic-Ai-Framework/Fashion_house.css">
+    <title>Fashion House/Men's Fashion</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-title"><i class="fa fa-shopping-bag fa-lg"></i> Fashion House</div>
+        <div class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="./home.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li><a href="./Men.html"><i class="fa fa-male fa-lg"></i> Men's</a></li>
+                <li><a href="./Women.html" class="active-link"><i class="fa fa-female fa-lg"></i> Women's</a></li>
+                <li><a href="./Accessories.html"><i class="fa fa-laptop fa-lg"></i> Accessories</a></li>
+                <li><a href="./Contact.html"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
+                <li><a href="#"><i class="fa fa-user fa-lg"></i> Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container mt-2 bg-white p-2 radius">
+        <div class="shirt-content product-inline">
+            <div class="product-slider">
+                <div class="product-figure">
+                    <img src="./Display/Repose-a line-1.jpg" alt="img1">
+                    <img src="./Display/Repose-a line-2.jpg" alt="img2">
+                    <img src="./Display/Repose-a line-3.jpg" alt="img3">
+                    <img src="./Display/Repose-a line-4.jpg" alt="img4">
+                    <img src="./Display/Repose-a line-1.jpg" alt="img5">
+                </div>
+            </div>
+            <div class="product-content ml-3">
+                <h2>REPOSE - A | LINE LONG DRESS - GREEN</h2>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"> 4.4(10)</i>
+                <p>Old prize: <span>5,300</span></p>
+                <p>Prize: <strong>3,180</strong> (40% off)</p>
+
+                <h3>Product Description</h3>
+                <p>A flared and paneled sleeve A line dress with a front tie up.</p>
+                <p><strong>FABRIC CONTENT :</strong> VISCOSE NYLON SPANDEX</p>
+                <h3>Product Details: </h3>
+                <ul>
+                    <li>A line</li>
+                    <li>Relax fit</li>
+                    <li>Gathering around the waist</li>
+                    <li>Sash inserting for clenching the waist</li>
+                    <li>Flared and paneled sleeve playing with stripes</li>
+                </ul>
+                <p><strong>SIZE & FIT :</strong> Model Height - 175cm</p>
+                <p>The Model (Bust 34,Waist 24, Hip 35) is wearing size XS.</p>
+                <button type="button" class="product-btn">Add To Cart</button><br>
+                <button type="button" class="product-btn mt-2">Buy Now</button>
+                <h4>Quick order:</h4>
+                <form onsubmit="return order()">
+                    <div class="products-list mt-2">
+                        <label for="house">House Number: </label><br>
+                        <input type="text" name="h.no" id="house" placeholder="House no."><br>
+                    </div>
+                    <div class="products-list mt-2">
+                        <label for="street">Street: </label><br>
+                        <input type="text" name="street" id="street" placeholder="Street"><br>
+                    </div>
+                    <div class="products-list mt-2">
+                        <label for="village">Village: </label><br>
+                        <input type="text" name="Village" id="village" placeholder="Village"><br>
+                    </div>
+                    <div class="products-list mt-2">
+                        <label for="postal">Postal code: </label><br>
+                        <input type="text" name="postal" id="postal" placeholder="Postal code"><br>
+                    </div>
+                    <div class="products-list mt-2">
+                        <label for="city">City: </label><br>
+                        <input type="text" name="city" id="city" placeholder="city"><br>
+                    </div>
+                    <div class="products-list-choose mt-2">
+                        <label for="qty">Quantity: </label><br>
+                        <select name="qty" id="qty">
+                            <option>Quantity</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                    <div class="products-list-chexkbox">
+                        <p><input type="checkbox"> Terms & Conditions.</p>
+                    </div>
+                    <div class="products-list-btn mt-3">
+                        <input type="submit" value="Order Now" name="submit" id="result">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script src="https://sonicai07.github.io/Sonic-Ai-Framework/Fashion_house.js"></script>
+</body>
+</html>
