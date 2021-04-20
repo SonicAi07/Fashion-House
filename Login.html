@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome icons reference -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fashion House CSS  -->
+    <link rel="stylesheet" href="https://sonicai07.github.io/Sonic-Ai-Framework/Fashion_house.css">
+    <title>Fashion House/ Login</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-title"><i class="fa fa-shopping-bag fa-lg"></i> Fashion House</div>
+        <div class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="./home.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li><a href="./Men.html"><i class="fa fa-male fa-lg"></i> Men's</a></li>
+                <li><a href="./Women.html"><i class="fa fa-female fa-lg"></i> Women's</a></li>
+                <li><a href="./Accessories.html"><i class="fa fa-laptop fa-lg"></i> Accessories</a></li>
+                <li><a href="./Contact.html"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
+                <li><a href="./Login.html" class="active-link"><i class="fa fa-user fa-lg"></i> Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <form onsubmit="return hello()" class="form">
+            <div class="form-title">
+                <a href="./home.html">Fashion-House Registration-form</a>
+            </div>
+            <div class="form-link mt-2">
+                <i class="fa fa-user"></i><input type="text" name="Username" id="user" placeholder="Username">
+            </div><br>
+            <div class="form-link">
+                <i class="fa fa-envelope"></i><input type="email" name="Email" id="email" placeholder="Email Address">
+            </div><br>
+            <div class="form-link">
+                <i class="fa fa-lock"></i><input type="password" name="password" id="pswd" placeholder="Password">
+            </div><br>
+            <div class="form-link">
+                <i class="fa fa-eye"></i><input type="password" name="cpassword" id="confirmPassword" placeholder="Confirm Password">
+            </div><br>
+            <div class="form-link">
+                <select>
+                    <option>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div><br>
+            <div class="form-link">
+                <select>
+                    <option>Designation</option>
+                    <option>Student</option>
+                    <option>Owner</option>
+                    <option>Employee</option>
+                    <option>Businessman</option>
+                </select>
+            </div>
+            <div class="form-radio">
+                <p><input type="checkbox"> Remeber me</p>
+            </div>
+            <div class="form-submit">
+                <input type="submit" name="submit" id="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+<script src="https://sonicai07.github.io/Sonic-Ai-Framework/Fashion_house.js"></script>
+</body>
+</html>
